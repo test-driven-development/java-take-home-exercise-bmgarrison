@@ -1,3 +1,28 @@
+##Sales report exercise
+Brent Garrison
+
+###Description of files:
+
+####SalesOrderRunner.java
+Contains main method of the project
+####FileParser.java
+Parses each file and maps each line to a product, returns list of products
+####Product.java
+object that contains quantity, name, price, and other attributes
+####SalesOrder.java
+Processes the products to generate report
+####SalesTaxCalculator.java
+Calculates the sales tax for each product
+###Note
+Input files located in src/resource
+
+
+###How to build and run:
+####Through IDE
+Open the SalesOrderRunner file and run the main method
+####With Maven
+In IDE or command line, run the following:
+clean compile exec:java
 ## java code exercise
 
 ### We wish to gather a shared understanding of the team's skill-set.
